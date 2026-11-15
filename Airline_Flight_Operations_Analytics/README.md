@@ -216,7 +216,7 @@ The Silver layer transforms raw Bronze data into reliable datasets by applying c
 
 **Silver Layer Cleaning Workflow:**
 
-![Silver Cleaning Steps](Assets/architecture/silver_cleaning_steps.png)
+![Silver Cleaning Steps](Assests/architecture/silver_cleaning_steps.png)
 
 ### 🥇 8.3 Gold Layer – Business Analytics
 
@@ -357,7 +357,7 @@ The project includes **four Databricks AI/BI Dashboard pages** to provide operat
 
 ### Page 1 – Executive Overview
 
-![Executive Overview](Assets/Dashboard/Executive_Overview.png)
+![Executive Overview](Assests/Dashboard/Executive_Overview.png)
 
 Provides an overall view of airline operations, including:
 
@@ -372,7 +372,7 @@ Provides an overall view of airline operations, including:
 
 ### Page 2 – Airline Performance
 
-![Airline Performance](Assets/Dashboard/Airline_Performance.png)
+![Airline Performance](Assests/Dashboard/Airline_Performance.png)
 
 Focuses on comparing the operational and financial performance of five airlines.
 
@@ -387,7 +387,7 @@ Key metrics include:
 
 ### Page 3 – Route & Delay Intelligence
 
-![Route and Delay Intelligence](Assets/Dashboard/Route_&_Delay_Intelligence.png)
+![Route and Delay Intelligence](Assests/Dashboard/Route_&_Delay_Intelligence.png)
 
 Provides detailed analysis of route demand and flight delay patterns.
 
@@ -403,7 +403,7 @@ Key metrics include:
 
 ### Page 4 – Data Quality & Pipeline Monitoring
 
-![Data Quality and Pipeline Monitoring](Assets/Dashboard/Data_Quality_&_Pipeline_Monitoring.png)
+![Data Quality and Pipeline Monitoring](Assests/Dashboard/Data_Quality_&_Pipeline_Monitoring.png)
 
 Monitors the reliability of the data engineering pipeline.
 
