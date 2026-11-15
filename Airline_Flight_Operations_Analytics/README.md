@@ -68,7 +68,7 @@ The project follows the **Medallion Architecture**, which organizes data process
 
 `Raw CSV → Bronze → Silver → Gold → AI/BI Dashboard`
 
-Airline_Flight_Operations_Analytics/Assests/architecture/medallion_architecture_and_reconciliation.png
+![Medallion Architecture](Assets/architecture/medallion_architecture_and_reconciliation.png)
 
 ### Architecture Components
 
@@ -85,7 +85,7 @@ Airline_Flight_Operations_Analytics/Assests/architecture/medallion_architecture_
 
 The pipeline automates the movement of data from the source CSV file through the three Medallion layers.
 
-Airline_Flight_Operations_Analytics/Assests/Pipeline_graph/Pipeline.png
+![Databricks Pipeline Graph](Assets/Pipeline_graph/Pipeline.png)
 
 ### Pipeline Components
 
@@ -216,7 +216,7 @@ The Silver layer transforms raw Bronze data into reliable datasets by applying c
 
 **Silver Layer Cleaning Workflow:**
 
-Airline_Flight_Operations_Analytics/Assests/architecture/silver_cleaning_steps.png
+![Silver Cleaning Steps](Assets/architecture/silver_cleaning_steps.png)
 
 ### 🥇 8.3 Gold Layer – Business Analytics
 
@@ -357,7 +357,7 @@ The project includes **four Databricks AI/BI Dashboard pages** to provide operat
 
 ### Page 1 – Executive Overview
 
-Airline_Flight_Operations_Analytics/Assests/dashboard/Executive Overview.png
+![Executive Overview](Assets/dashboard/Executive Overview.png)
 
 Provides an overall view of airline operations, including:
 
@@ -372,7 +372,7 @@ Provides an overall view of airline operations, including:
 
 ### Page 2 – Airline Performance
 
-Airline_Flight_Operations_Analytics/Assests/dashboard/Airline Performance.png
+![Airline Performance](Assets/dashboard/Airline Performance.png)
 
 Focuses on comparing the operational and financial performance of five airlines.
 
@@ -387,7 +387,7 @@ Key metrics include:
 
 ### Page 3 – Route & Delay Intelligence
 
-Airline_Flight_Operations_Analytics/Assests/dashboard/Route & Delay Intelligence.png
+![Route and Delay Intelligence](Assets/dashboard/Route & Delay Intelligence.png)
 
 Provides detailed analysis of route demand and flight delay patterns.
 
@@ -403,7 +403,7 @@ Key metrics include:
 
 ### Page 4 – Data Quality & Pipeline Monitoring
 
-Airline_Flight_Operations_Analytics/Assests/dashboard/Data Quality & Pipeline Monitoring.png
+![Data Quality and Pipeline Monitoring](Assets/dashboard/Data Quality & Pipeline Monitoring.png)
 
 Monitors the reliability of the data engineering pipeline.
 
