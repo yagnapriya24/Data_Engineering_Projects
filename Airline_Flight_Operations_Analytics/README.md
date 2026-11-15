@@ -91,14 +91,14 @@ The pipeline automates the movement of data from the source CSV file through the
 
 | Pipeline Object | Type | Description |
 |---|---|---|
-| `bronze_airline_flights` | Streaming Table | Ingests raw airline flight data |
-| `silver_flights_clean` | Materialized View | Stores cleaned and validated records |
-| `silver_flights_rejected` | Materialized View | Stores records that fail validation |
-| `gold_monthly_flight_trends` | Materialized View | Monthly flight trends |
-| `gold_airline_performance` | Materialized View | Airline performance analysis |
-| `gold_route_performance` | Materialized View | Route-level performance |
-| `gold_delay_analysis` | Materialized View | Flight delay analysis |
-| `gold_data_quality` | Materialized View | Data quality and reconciliation metrics |
+| bronze_airline_flights | Streaming Table | Ingests raw airline flight data |
+| silver_flights_clean | Materialized View | Stores cleaned and validated records |
+| silver_flights_rejected | Materialized View | Stores records that fail validation |
+| gold_monthly_flight_trends | Materialized View | Monthly flight trends |
+| gold_airline_performance | Materialized View | Airline performance analysis |
+| gold_route_performance | Materialized View | Route-level performance |
+| gold_delay_analysis | Materialized View | Flight delay analysis |
+| gold_data_quality | Materialized View | Data quality and reconciliation metrics |
 
 ---
 
