@@ -68,7 +68,7 @@ The project follows the **Medallion Architecture**, which organizes data process
 
 `Raw CSV → Bronze → Silver → Gold → AI/BI Dashboard`
 
-[![Medallion Architecture](Assets/architecture/medallion_architecture_and_reconciliation.png)](https://github.com/yagnapriya24/Data_Engineering_Projects/blob/6f8ccff37dd6fa329ae7ed2bed30505f59029c47/Airline_Flight_Operations_Analytics/Assests/architecture/medallion_architecture_and_reconciliation.png)
+[![Medallion Architecture](Airline_Flight_Operations_Analytics/Assests/architecture/medallion_architecture_and_reconciliation.png)
 
 ### Architecture Components
 
