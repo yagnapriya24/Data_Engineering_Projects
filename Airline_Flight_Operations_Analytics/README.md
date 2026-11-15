@@ -85,7 +85,7 @@ The project follows the **Medallion Architecture**, which organizes data process
 
 The pipeline automates the movement of data from the source CSV file through the three Medallion layers.
 
-![Databricks Pipeline Graph](Assets/Pipeline_graph/Pipeline.png)
+![Databricks Pipeline Graph](Assests/Pipeline_graph/Pipeline.png)
 
 ### Pipeline Components
 
