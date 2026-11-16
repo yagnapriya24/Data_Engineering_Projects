@@ -10,24 +10,33 @@ The project covers automated data ingestion, data cleaning, deduplication, busin
 
 ## 📌 Table of Contents
 
-1. Business Problem
-2. Project Objectives
-3. Project Architecture
-4. Pipeline Workflow
-5. Technology Stack
-6. Dataset Overview
-7. Repository Structure
-8. Medallion Architecture Implementation
-9. Data Cleaning and Quality Rules
-10. Data Quality Reconciliation
-11. Gold Layer – Business Analytics
-12. Dashboard Overview
-13. Key Business Insights
-14. How to Run the Project
-15. Project Outcomes
-16. Key Learnings
-17. Future Enhancements
-18. Author
+## 📌 Table of Contents
+
+1. [Business Problem](#1-business-problem)
+2. [Project Objectives](#2-project-objectives)
+3. [Project Architecture](#3-project-architecture)
+4. [Pipeline Workflow](#4-pipeline-workflow)
+5. [Technology Stack](#5-technology-stack)
+6. [Dataset Overview](#6-dataset-overview)
+7. [Repository Structure](#7-repository-structure)
+8. [Medallion Architecture Implementation](#8-medallion-architecture-implementation)
+   - [8.1 Bronze Layer – Raw Data Ingestion](#81-bronze-layer--raw-data-ingestion)
+   - [8.2 Silver Layer – Data Cleaning and Validation](#82-silver-layer--data-cleaning-and-validation)
+   - [8.3 Gold Layer – Business Analytics](#83-gold-layer--business-analytics)
+9. [Data Cleaning and Quality Rules](#9-data-cleaning-and-quality-rules)
+10. [Data Quality Reconciliation](#10-data-quality-reconciliation)
+11. [Gold Layer – Business Analytics](#11-gold-layer--business-analytics)
+12. [Dashboard Overview](#12-dashboard-overview)
+    - [Page 1 – Executive Overview](#page-1--executive-overview)
+    - [Page 2 – Airline Performance](#page-2--airline-performance)
+    - [Page 3 – Route & Delay Intelligence](#page-3--route--delay-intelligence)
+    - [Page 4 – Data Quality & Pipeline Monitoring](#page-4--data-quality--pipeline-monitoring)
+13. [Key Business Insights](#13-key-business-insights)
+14. [How to Run the Project](#14-how-to-run-the-project)
+15. [Project Outcomes](#15-project-outcomes)
+16. [Key Learnings](#16-key-learnings)
+17. [Future Enhancements](#17-future-enhancements)
+18. [Author](#18-author)
 
 ---
 
