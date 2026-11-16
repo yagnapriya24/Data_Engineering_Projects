@@ -10,8 +10,6 @@ The project covers automated data ingestion, data cleaning, deduplication, busin
 
 ## 📌 Table of Contents
 
-## 📌 Table of Contents
-
 1. [Business Problem](#1-business-problem)
 2. [Project Objectives](#2-project-objectives)
 3. [Project Architecture](#3-project-architecture)
@@ -20,9 +18,6 @@ The project covers automated data ingestion, data cleaning, deduplication, busin
 6. [Dataset Overview](#6-dataset-overview)
 7. [Repository Structure](#7-repository-structure)
 8. [Medallion Architecture Implementation](#8-medallion-architecture-implementation)
-   - [8.1 Bronze Layer – Raw Data Ingestion](#81-bronze-layer--raw-data-ingestion)
-   - [8.2 Silver Layer – Data Cleaning and Validation](#82-silver-layer--data-cleaning-and-validation)
-   - [8.3 Gold Layer – Business Analytics](#83-gold-layer--business-analytics)
 9. [Data Cleaning and Quality Rules](#9-data-cleaning-and-quality-rules)
 10. [Data Quality Reconciliation](#10-data-quality-reconciliation)
 11. [Gold Layer – Business Analytics](#11-gold-layer--business-analytics)
