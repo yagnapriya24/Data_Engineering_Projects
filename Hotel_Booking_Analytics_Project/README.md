@@ -25,7 +25,7 @@ The objective of this project is to build a repeatable data pipeline that:
 
 The project follows the Medallion Architecture.
 
-![Medallion Architecture](assests/Medallion_Architecture.png)
+![Medallion Architecture](Assets/Medallion_Architecture.png)
 
 ### Data Flow
 
@@ -143,7 +143,7 @@ Operations performed:
 - Unique booking IDs: 1,290
 - Duplicate records: 26
 
-![Bronze Layer Pipeline](assests/Bronze_Layer_Pipeline.png)
+![Bronze Layer Pipeline](Assets/Bronze_Layer_Pipeline.png)
 
 ### Silver Layer – Data Cleaning and Validation
 
@@ -180,11 +180,11 @@ Validation rules:
 | Rejected records | 21 |
 | Duplicate records removed | 26 |
 
-![Silver Layer Pipeline](assests/Silver_Layer_Pipeline.png)
+![Silver Layer Pipeline](Assets/Silver_Layer_Pipeline.png)
 
 #### Silver Cleaning Workflow
 
-![Silver Cleaning Steps](assests/Silver_Cleaning_Steps.png)
+![Silver Cleaning Steps](Assets/Silver_Cleaning_Steps.png)
 
 ### Gold Layer – Business Analytics
 
@@ -198,7 +198,7 @@ The Gold layer contains five analytical tables created using SQL aggregations.
 | `gold_channel_summary` | Booking channel and cancellation analysis |
 | `gold_data_quality` | Data quality metrics and reconciliation |
 
-![Gold Layer Pipeline](assests/Gold_Layer_Pipeline.png)
+![Gold Layer Pipeline](Assets/Gold_Layer_Pipeline.png)
 
 #### Business Metrics
 
@@ -336,7 +336,7 @@ Visualizations:
 - Net Revenue by Room Type
 - Booking Status Distribution
 
-![Overview Dashboard](dashboard/Overview.png)
+![Overview Dashboard](Dashboard/Overview.png)
 
 ### Page 2 – Hotels, Rooms & Channels
 
@@ -350,7 +350,7 @@ Visualizations:
 - Cancellation Rate by Booking Channel
 - Revenue by Booking Channel
 
-![Hotels, Rooms and Channels Dashboard](<dashboard/Hotels_Rooms&Channels.png>)
+![Hotels, Rooms and Channels Dashboard](Dashboard/Hotels_Rooms&Channels.png)
 
 ### Page 3 – Data Quality
 
@@ -366,7 +366,7 @@ Key metrics:
 - Negative Room Rates
 - Reconciliation Status
 
-![Data Quality Dashboard](dashboard/Data_Quality.png)
+![Data Quality Dashboard](Dashboard/Data_Quality.png)
 
 ## 9. GitHub Project Structure
 
