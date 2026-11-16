@@ -89,7 +89,7 @@ processing into three layers.
 `Raw CSV → Bronze → Silver → Gold → Databricks AI/BI Dashboard`
 
 ![Medallion
-Architecture](Assets/architecture/medallion_architecture_and_reconciliation.png)
+Architecture](Assests/architecture/medallion_architecture_and_reconciliation.png)
 
 ### Architecture Components
 
@@ -117,7 +117,7 @@ Architecture](Assets/architecture/medallion_architecture_and_reconciliation.png)
 The pipeline automates the movement of data from the source CSV file
 through the three Medallion layers.
 
-![Databricks Pipeline Graph](Assets/Pipeline_graph/Pipeline.png)
+![Databricks Pipeline Graph](Assests/Pipeline_Graph/Pipeline.png)
 
 ### Pipeline Components
 
@@ -269,7 +269,7 @@ records.
 7.  Store invalid unique records with rejection reasons in the rejected
     view.
 
-![Silver Cleaning Steps](Assets/architecture/silver_cleaning_steps.png)
+![Silver Cleaning Steps](Assests/architecture/silver_cleaning_steps.png)
 
 ### 🥇 8.3 Gold Layer -- Business Analytics
 
@@ -438,7 +438,7 @@ operational and business analysis.
 
 ### Page 1 -- Executive Overview
 
-![Executive Overview](Assets/Dashboard/Executive_Overview.png)
+![Executive Overview](Assests/Dashboard/Executive_Overview.png)
 
 Provides a high-level view of airline operations, including:
 
@@ -453,7 +453,7 @@ Provides a high-level view of airline operations, including:
 
 ### Page 2 -- Airline Performance
 
-![Airline Performance](Assets/Dashboard/Airline_Performance.png)
+![Airline Performance](Assests/Dashboard/Airline_Performance.png)
 
 Compares the operational and financial performance of the airlines.
 
@@ -469,7 +469,7 @@ Key metrics include:
 ### Page 3 -- Route & Delay Intelligence
 
 ![Route and Delay
-Intelligence](Assets/Dashboard/Route_&_Delay_Intelligence.png)
+Intelligence](Assests/Dashboard/Route_&_Delay_Intelligence.png)
 
 Analyzes route demand and flight delay patterns.
 
@@ -486,7 +486,7 @@ Key metrics include:
 ### Page 4 -- Data Quality & Pipeline Monitoring
 
 ![Data Quality and Pipeline
-Monitoring](Assets/Dashboard/Data_Quality_&_Pipeline_Monitoring.png)
+Monitoring](Assests/Dashboard/Data_Quality_&_Pipeline_Monitoring.png)
 
 Monitors the reliability and reconciliation of the data pipeline.
 
